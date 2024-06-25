@@ -11,7 +11,9 @@ import SwiftUI
 struct APODApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                APODListView()
+            }
         }
     }
 }
